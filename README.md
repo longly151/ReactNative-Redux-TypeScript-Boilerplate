@@ -36,11 +36,10 @@ $ npm install
 
 * For ANDROID
 
-- Delete `android.useDeprecatedNdk=true` in gradle.properties
 - Add to gradle.properties
 
-`android.useAndroidX=true`
-`android.enableJetifier=true`
+`android.useAndroidX=true
+android.enableJetifier=true`
 
 * For IOS
 
