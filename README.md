@@ -38,8 +38,8 @@ $ npm install
 
 - Add to gradle.properties
 
-"android.useAndroidX=true
-android.enableJetifier=true"
+`android.useAndroidX=true`
+`android.enableJetifier=true`
 
 * For IOS
 
