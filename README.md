@@ -31,3 +31,17 @@ $ npm install
 ### Run on Android
 
 - Run `react-native run-android` in your terminal
+
+### Fix bugs
+
+* For ANDROID
+
+- Delete `android.useDeprecatedNdk=true` in gradle.properties
+- Add to gradle.properties
+
+android.useAndroidX=true
+android.enableJetifier=true
+
+* For IOS
+
+- Replace `React/RCTRootContentView.h` by `RCTRootContentView.h`
